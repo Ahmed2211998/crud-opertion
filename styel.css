@@ -1,0 +1,191 @@
+body {
+  /* background: linear-gradient(to right bottom, #091220  50%); */
+  background-color: #091220;
+}
+*{
+  text-transform: uppercase;
+
+}
+.bagg:hover{
+  transform: matrix(1.2,0,1,1,10,0);
+  -webkit-transform: matrix(1.2,0,1,1,10,0);
+  -moz-transform: matrix(1.2,0,1,1,10,0);
+  -ms-transform: matrix(1.2,0,1,1,10,0);
+  -o-transform: matrix(1.2,0,1,1,10,0);
+}
+.bagg2:hover{
+  transform: scale3d(1.2,1.1,2);
+  -webkit-transform: scale3d(1.2,1.1,2);
+  -moz-transform: scale3d(1.2,1.1,2);
+  -ms-transform: scale3d(1.2,1.1,2);
+  -o-transform: scale3d(1.2,1.1,2);
+}
+
+.table {
+  animation-duration: 3s;
+  animation-name: table;
+  /* animation-iteration-count:infinite; */
+  animation-direction: alternate-reverse;
+  /* background-color: cadetblue; */
+  color: #fff;
+}
+
+@keyframes table {
+  from {
+    transform: translatey(-0%);
+    -webkit-transform: translatey(-0%);
+    -moz-transform: translatey(-0%);
+    -ms-transform: translatey(-0%);
+    -o-transform: translatey(-0%);
+    background-color: rgb(95, 121, 160);
+}
+
+  to {
+    transform: translatey(-200%);
+    -webkit-transform: translatey(-200%);
+    -moz-transform: translatey(-200%);
+    -ms-transform: translatey(-200%);
+    -o-transform: translatey(-200%);
+    background-color: rgb(163, 141, 141);
+  }
+}
+.enter {
+  animation-name: enterr;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+  color: #fff;
+  padding: 3%;
+}
+@keyframes enterr {
+  from {
+    transform: translatex(0%);
+    -webkit-transform: translatex(0%);
+    -moz-transform: translatex(0%);
+    -ms-transform: translatex(0%);
+    -o-transform: translatex(0%);
+    background-color: cadetblue;
+}
+
+  to {
+    transform: translatex(-400%);
+    -webkit-transform: translatex(-400%);
+    -moz-transform: translatex(-400%);
+    -ms-transform: translatex(-400%);
+    -o-transform: translatex(-400%);
+    background-color: rgb(163, 141, 141);
+}
+}
+/* .t0{
+  animation-name: t0;
+  animation-duration: 6s;
+  animation-direction: alternate-reverse;
+} */
+.t0 {
+  animation-duration: 7s;
+  animation-name: t0;
+  animation-direction: alternate-reverse;
+  color: #fff;
+}
+.t0 {
+  animation-delay: 3s;
+}
+@keyframes t0 {
+  from {
+    transform: translatey(0%);
+    -webkit-transform: translatey(0%);
+    -moz-transform: translatey(0%);
+    -ms-transform: translatey(0%);
+    -o-transform: translatey(0%);
+    background-color: #091220;
+}
+
+  to {
+    transform: translatey(-800%);
+    -webkit-transform: translatey(-800%);
+    -moz-transform: translatey(-800%);
+    -ms-transform: translatey(-800%);
+    -o-transform: translatey(-800%);
+    background-color: rgb(163, 141, 141);
+}
+}
+
+.t1 {
+  animation-duration: 5s;
+  animation-name: enterr;
+  animation-direction: alternate-reverse;
+  color: #fff;
+}
+.t1 {
+  animation-delay: 1s;
+}
+.t2 {
+  animation-duration: 5s;
+  animation-name: enterr;
+  animation-direction: alternate-reverse;
+  color: #fff;
+}
+.t2 {
+  animation-delay: 2s;
+}
+.t3 {
+  animation-duration: 5s;
+  animation-name: enterr;
+  animation-direction: alternate-reverse;
+  color: #fff;
+}
+.t3 {
+  animation-delay: 3s;
+}
+.t4 {
+  animation-duration: 5s;
+  animation-name: enterr;
+  animation-direction: alternate-reverse;
+  color: #fff;
+}
+.t4 {
+  animation-delay: 4s;
+}
+.t5{
+  animation-duration: 6s;
+  animation-name: enterr;
+  animation-direction: alternate-reverse;
+  color: #fff;
+  margin-top: 20px;
+}
+.t5 {
+  animation-delay: 5.5s;
+}
+/* .table{
+     animation:taball 5s   ;
+     -webkit-animation:taball 5s   ;
+} */
+/* @keyframes taball{
+         0%,100%{
+                  transform: translate(0,0);
+                  -webkit-transform: translate(0,0);
+                  -moz-transform: translate(0,0);
+                  -ms-transform: translate(0,0);
+                  -o-transform: translate(0,0);
+}
+         50%{
+                  transform: translate(-0%,-10%);
+                  -webkit-transform: translate(-0%,-10%);
+                  -moz-transform: translate(-0%,-10%);
+                  -ms-transform: translate(-0%,-10%);
+                  -o-transform: translate(-0%,-10%);
+} 
+ 80%{
+                  transform: translate(-0%,-30%);
+                  -webkit-transform: translate(-0%,-30%);
+                  -moz-transform: translate(-0%,-30%);
+                  -ms-transform: translate(-0%,-30%);
+                  -o-transform: translate(-0%,-30%);
+}
+         100%{
+                  transform: translate(-30%,-0%);
+                  -webkit-transform: translate(-30%,-0%);
+                  -moz-transform: translate(-30%,-0%);
+                  -ms-transform: translate(-30%,-0%);
+                  -o-transform: translate(-30%,-0%);
+} 
+} */
